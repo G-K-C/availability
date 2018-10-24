@@ -163,7 +163,7 @@ the smallest unit of management, creation, and planning, the container HA in K8s
 the High Availability of running Pods.
 
 Table 2 shows the potential faults of running pod in K8s. when it happens, the ReplicationController
-or ReplicaSet can prevent the services provided by the pod from being unavailable, , as is shown in
+or ReplicaSet can prevent the services provided by the pod from being unavailable, as is shown in
 figure 3.
 
 *Table 2. Potential Faults in VIM level*
@@ -181,7 +181,7 @@ figure 3.
     :alt: VIM HA Analysis
     :figclass: align-center
 
-    Fig 3. Container HA analysis in K8s.png
+    Fig 3. Container HA analysis in K8s
     
     
 The Replication Controller or ReplicaSet (ReplicaSet is the next-generation Replication Controller) 
